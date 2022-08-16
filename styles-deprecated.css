@@ -1,0 +1,95 @@
+body {
+    background-color: #ECECEC;
+    font-family: Lato;
+}
+h1 {
+    font-size: 5.5vh;
+}
+h2 {
+    font-size: 3.5vh;
+}
+h3 {
+    font-size: 2.5vh;
+}
+p {
+    word-break: break-all;
+}
+
+#page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-header {
+    text-align: center;
+}
+#page-header h1 {
+    color: black;
+}
+#page-header h3 {
+    color: darkorange;
+}
+
+#recipe-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#recipe-cards > div {
+    margin: 2vw;
+}
+
+#chicken-noodle-soup {
+    background-color: white;
+    border-radius: 1vw;
+    width: 25vw;
+    height: 60vh;
+    box-shadow: 0.5vh 0.5vh rgb(172, 172, 172);
+}
+#beef-stew {
+    background-color: white;
+    border-radius: 1vw;
+    width: 25vw;
+    height: 60vh;
+    box-shadow: 0.5vh 0.5vh rgb(172, 172, 172);
+}
+
+.recipe-header {
+    display: flex;
+    flex-direction: row;
+    width: 25vw;
+    height: 25vh;
+}
+
+.recipe-header-image {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 1vw;
+}
+.recipe-header-image img {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 1vw;
+    border: 3px solid black;
+    border-color: black;
+}
+
+.recipe-header-text {
+    margin-top: -2vh;
+    margin-left: 1vw;
+}
+.recipe-header-text p {
+    margin-bottom: 0.3vh;
+    margin-top: 0vh;
+}
+
+.recipe-ingredients-instructions {
+    margin-top: -2vh;
+    margin-left: 1.5vh;
+}
+.recipe-ingredients-instructions h3 {
+    color: darkorange;
+    margin-top: 0.5vh;
+    margin-bottom: -2vh;
+}
