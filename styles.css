@@ -7,8 +7,18 @@ body {
   font-family: Lato;
 }
 
+p {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
 img {
-  max-width: 200px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid black;
 }
 
 .page-header {
@@ -35,7 +45,10 @@ img {
 .recipe-card {
   background: #FFFFFF;
   padding: 30px;
-  width: 450px;
+  width: 390px;
+  /* Padding changes width, make sure to explain
+  width + padding = display width
+  we want display width of 450px, so 450px - 2*30px = 390px */
   border-radius: 10px;
   box-shadow: 0px 4px 4px #444444;
 }
@@ -43,4 +56,29 @@ img {
 .recipe-header {
   display: flex;
   gap: 30px;
+}
+
+.recipe-card h2 {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.recipe-card h3 {
+  font-size: 24px;
+  color: var(--orange);
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* Change margin of h3, but why doesn't anything change?
+Open inspect element and show that ul has margin-top */
+
+ul {
+  margin-top: 10px;
+}
+
+ol {
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
