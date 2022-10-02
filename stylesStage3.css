@@ -1,0 +1,27 @@
+p {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.recipe-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.recipe-header {
+    display: flex;
+    gap: 30px;
+}
+
+
+
